@@ -1,0 +1,21 @@
+## 📌 Complete Wiring Pinout
+
+| Component | Module Pin | Arduino Uno Pin | Description |
+| :--- | :--- | :--- | :--- |
+| **L293D Motor Driver** | `IN1` | Pin 3 | Left motor forward control |
+| **L293D Motor Driver** | `IN2` | Pin 4 | Left motor backward control |
+| **L293D Motor Driver** | `IN3` | Pin 5 | Right motor forward control |
+| **L293D Motor Driver** | `IN4` | Pin 7 | Right motor backward control |
+| **HC-05 / HC-06 Bluetooth** | `VCC` | 5V | Power supply |
+| **HC-05 / HC-06 Bluetooth** | `GND` | GND | Common ground |
+| **HC-05 / HC-06 Bluetooth** | `TXD` | Pin 10 | SoftwareSerial RX |
+| **HC-05 / HC-06 Bluetooth** | `RXD` | Pin 11 | SoftwareSerial TX |
+| **HC-SR04 Ultrasonic Sensor** | `VCC` | 5V | Power supply |
+| **HC-SR04 Ultrasonic Sensor** | `GND` | GND | Common ground |
+| **HC-SR04 Ultrasonic Sensor** | `Trig` | Pin A1 | Distance trigger signal |
+| **HC-SR04 Ultrasonic Sensor** | `Echo` | Pin A2 | Distance echo reflection |
+| **SG90 Servo Motor** | Signal | Pin 9 | Sweeps ultrasonic sensor |
+| **SG90 Servo Motor** | VCC | 5V | Servo power supply |
+| **SG90 Servo Motor** | GND | GND | Common ground |
+| **External Battery Pack** | Battery (+) | Driver `VCC` | Powers motors and Arduino |
+| **External Battery Pack** | Battery (-) | Common `GND` | Must share common ground! |
